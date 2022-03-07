@@ -49,7 +49,8 @@ window.addEventListener('load', () => {
     $(".profile_div").toggle();
     $(".widget").toggle();
     $("#userInput").prop("disabled", false);
-    //customActionTrigger();
+    message = "/habeas_data"
+    send(message);
   });
 
   // clear function to clear the chat contents of the widget.
