@@ -303,11 +303,11 @@ function actionTrigger() {
 
 function customActionTrigger() {
     $.ajax({
-        url: "http://localhost:5055/webhook/",
+        url: "http://localhost:5055/webhook/rest/webhook",
         type: "POST",
         contentType: "application/json",
         data: JSON.stringify({
-            next_action: "action_initial_greet",
+            payload: "/habeas_data",
             tracker: {
                 sender_id,
             },
