@@ -49,7 +49,7 @@ window.addEventListener('load', () => {
     $(".profile_div").toggle();
     $(".widget").toggle();
     $("#userInput").prop("disabled", false);
-    message = "/session_start";
+    message = "/greet";
     send(message);
   });
 
