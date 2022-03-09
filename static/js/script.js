@@ -39,7 +39,7 @@ window.addEventListener('load', () => {
 
     // enable this if u have configured the bot to start the conversation.
     //showBotTyping();
-    //$("#userInput").prop('disabled', true);
+    $("#userInput").prop('disabled', true);
 
     // if you want the bot to start the conversation
     
@@ -49,8 +49,8 @@ window.addEventListener('load', () => {
     $(".profile_div").toggle();
     $(".widget").toggle();
     $("#userInput").prop("disabled", false);
-    message = "/habeas_data"
-    send(message);
+    //message = "/habeas_data"
+    send("hola");
   });
 
   // clear function to clear the chat contents of the widget.
