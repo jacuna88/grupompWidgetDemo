@@ -1,14 +1,5 @@
 
 ### Despliegue local demo
-Pasos
-1. Asegurarse de tener docker y ngrok instalado. 
-2. Correr ```docker compose up``` en el directorio del repositorio privado que aloja el código del bot, este código crea tres servicios y abre el puerto ```localhost:5010```
-3. Correr ```.\ngrok http 5010```, esto abre el puerto ```5010``` y abre una dirección púlbica para el webhook.
-4. Copiar la dirección https de ngrok a ```/static/js/constants.js``` agragando ```webhooks/rest/webhook```, a la variable ```rasa_server_url``` archivo  de este repositorio
-5. Hacer ```commit``` a ese cambio y fusionarlo en la rama master
-6. Esperar a que github reconstruya la página, esto se puede ver en la pestaña Actions
-
-
 
 
 ![ScreenShot](static/img/banner.png)
