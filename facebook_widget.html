@@ -6,27 +6,15 @@
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '5008287172580585',
-      cookie     : true,
-      xfbml      : true,
-      version    : 'v13.0'
+      appId            : '5008287172580585',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v13.0'
     });
-      
-    FB.AppEvents.logPageView();   
-      
   };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js"></script>
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>    
-
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=5008287172580585&autoLogAppEvents=1" nonce="dhX5kqMu"></script>
 
 <h1>Widget</h1>
 <p>Escribir un mensaje directo a estas páginas:
