@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
+<div id="fb-root"></div>
 
-<h1>Widget</h1>
-<p>Escribir un mensaje directo a estas páginas:
-   <a href= "https://www.facebook.com/transturmp"> Transporte y Turismo MP</a>
-   <a href= "https://www.instagram.com/transturmp"> Transporte y Turismo MP, instagram</a>
-   
-</p>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '{your-app-id}',
+      appId      : '5008287172580585',
       cookie     : true,
       xfbml      : true,
-      version    : '{api-version}'
+      version    : 'v13.0'
     });
       
     FB.AppEvents.logPageView();   
@@ -29,6 +24,19 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>    
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=5008287172580585&autoLogAppEvents=1" nonce="dhX5kqMu"></script>
+
+<h1>Widget</h1>
+<p>Escribir un mensaje directo a estas páginas:
+   <a href= "https://www.facebook.com/transturmp"> Transporte y Turismo MP</a>
+   <a href= "https://www.instagram.com/transturmp"> Transporte y Turismo MP, instagram</a>
+   
+</p>
+   
+<div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+
 
    
 <fb:login-button 
